@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.51e315da.css",
+    "main.js": "/static/js/main.5fd3ce9c.js",
+    "static/media/instituto-fray-mamerto-esquiu.jpg": "/static/media/instituto-fray-mamerto-esquiu.553c08f7b5ef272a5bd5.jpg",
+    "static/media/atencion-publico-heladeria.jpg": "/static/media/atencion-publico-heladeria.3559595cd06bbd1da2df.jpg",
+    "static/media/universidad-nacional-de-mar-del-plata.jpg": "/static/media/universidad-nacional-de-mar-del-plata.0e0a1853b57436448f6d.jpg",
+    "static/media/squash.jpg": "/static/media/squash.ed414ccde0cf68f7323d.jpg",
+    "static/media/redes-sociales.jpg": "/static/media/redes-sociales.1f59a423f31c6a3bca22.jpg",
+    "static/media/videojuegos.jpg": "/static/media/videojuegos.e51031b160656c6289ef.jpg",
+    "static/media/martina-logo.png": "/static/media/martina-logo.619c172ac7f54d090601.png",
+    "static/media/burletes.jpg": "/static/media/burletes.aa43288e78f99bce3759.jpg",
+    "index.html": "/index.html",
+    "main.51e315da.css.map": "/static/css/main.51e315da.css.map",
+    "main.5fd3ce9c.js.map": "/static/js/main.5fd3ce9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51e315da.css",
+    "static/js/main.5fd3ce9c.js"
+  ]
+}
