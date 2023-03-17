@@ -1,0 +1,125 @@
+.nav-bar
+{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid var(--lightblue);
+    background-color: #111;
+    color: var(--lightblue);
+    z-index: 1;
+}
+
+.icons-container
+{
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #111;
+}
+
+.martina-logo
+{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.burger-icon
+{
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+.nav-links-hide ul li,
+.nav-links ul li
+{
+    display: inline;
+    margin-right: 30px;
+    font-weight: 700;
+    padding-bottom: 3px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-links-hide ul li::after,
+.nav-links ul li::after {
+    display: inline-block;
+    background-color: var(--purple);
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: width 0.35s ease 0s;
+  }
+
+
+  .nav-links-hide ul li:hover::after,
+  .nav-links ul li:hover::after
+  {
+    width: 100%;
+  }
+
+
+  @media (max-width: 500px)
+  {
+
+        .nav-links-hide
+        {
+            display: none;
+        }
+
+        .burger-icon
+        {
+            display: block;
+        }
+
+
+        .nav-links
+        {
+            display: block;
+        }
+
+        .martina-logo
+        {
+            width: 100px;
+            height: 100px;
+            margin-top: 0px;
+        }
+
+        .icons-container
+        {
+            width: 100%;
+        }
+
+        .nav-bar
+        {
+            height: auto;
+            flex-direction: column;
+        }
+
+        .nav-links ul
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .nav-links ul li
+        {
+            margin-bottom: 10px;
+            margin-top: 10px;
+            text-align: center;
+        }
+  }
