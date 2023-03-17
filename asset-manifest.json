@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/martina-portfolio/static/css/main.51e315da.css",
+    "main.css": "/martina-portfolio/static/css/main.f180ffbb.css",
     "main.js": "/martina-portfolio/static/js/main.d3b1b299.js",
     "static/media/instituto-fray-mamerto-esquiu.jpg": "/martina-portfolio/static/media/instituto-fray-mamerto-esquiu.553c08f7b5ef272a5bd5.jpg",
     "static/media/atencion-publico-heladeria.jpg": "/martina-portfolio/static/media/atencion-publico-heladeria.3559595cd06bbd1da2df.jpg",
@@ -11,11 +11,11 @@
     "static/media/martina-logo.png": "/martina-portfolio/static/media/martina-logo.619c172ac7f54d090601.png",
     "static/media/burletes.jpg": "/martina-portfolio/static/media/burletes.aa43288e78f99bce3759.jpg",
     "index.html": "/martina-portfolio/index.html",
-    "main.51e315da.css.map": "/martina-portfolio/static/css/main.51e315da.css.map",
+    "main.f180ffbb.css.map": "/martina-portfolio/static/css/main.f180ffbb.css.map",
     "main.d3b1b299.js.map": "/martina-portfolio/static/js/main.d3b1b299.js.map"
   },
   "entrypoints": [
-    "static/css/main.51e315da.css",
+    "static/css/main.f180ffbb.css",
     "static/js/main.d3b1b299.js"
   ]
 }
